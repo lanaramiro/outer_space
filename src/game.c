@@ -6,10 +6,10 @@
 #include <unistd.h>
 
 const DishInfo DISHES[] = {
-    {.prep_time = 5, .cook_time = 3, .name = "Burger"},
-    {.prep_time = 2, .cook_time = 1, .name = "Juice"},
-    {.prep_time = 4, .cook_time = 6, .name = "Pizza"},
-    {.prep_time = 3, .cook_time = 2, .name = "Salad"}
+    {.prep_time = 5, .cook_time = 3, .name = "Banana Split"},
+    {.prep_time = 2, .cook_time = 1, .name = "Cofee"},
+    {.prep_time = 4, .cook_time = 6, .name = "Fried Chicken"},
+    {.prep_time = 3, .cook_time = 2, .name = "Ramen"}
 };
 
 GameState game_state;

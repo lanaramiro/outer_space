@@ -11,13 +11,13 @@
 #define MAX_CREW 5
 #define MAX_WORKSTATIONS 3
 #define MAX_KITCHENS 2
-#define GAME_DURATION 300 // 5 minutes in seconds
+#define GAME_DURATION 300 
 
 typedef enum {
-    BURGER,
-    JUICE,
-    PIZZA,
-    SALAD
+    BANANA_SPLIT,
+    COFEE,
+    FRIED_CHICKEN,
+    RAMEN,
 } DishType;
 
 typedef struct {

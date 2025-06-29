@@ -34,10 +34,10 @@ int main() {
                 DishType dish;
                 
                 switch (ch) {
-                    case 'b': dish = BURGER; break;
-                    case 'j': dish = JUICE; break;
-                    case 'p': dish = PIZZA; break;
-                    case 's': dish = SALAD; break;
+                    case 'b': dish = BANANA_SPLIT; break;
+                    case 'c': dish = COFEE; break;
+                    case 'f': dish = FRIED_CHICKEN; break;
+                    case 'r': dish = RAMEN; break;
                     default: first_key = 0; continue;
                 }
                 

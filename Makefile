@@ -10,4 +10,4 @@ outer_space: $(OBJ)
 	$(CC) -o $@ $^ $(CFLAGS)
 
 clean:
-	rm -f *.o outer_space
+	rm -f *.o outer_space $(OBJ)
