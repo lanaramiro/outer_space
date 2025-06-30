@@ -36,7 +36,7 @@ int main() {
                 
                 switch (ch) {
                     case 'b': dish = BANANA_SPLIT; break;
-                    case 'c': dish = COFEE; break;
+                    case 'c': dish = COFFEE; break;
                     case 'f': dish = FRIED_CHICKEN; break;
                     case 'r': dish = RAMEN; break;
                     default: first_key = 0; continue;

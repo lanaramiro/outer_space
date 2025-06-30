@@ -15,7 +15,7 @@
 
 typedef enum {
     BANANA_SPLIT,
-    COFEE,
+    COFFEE,
     FRIED_CHICKEN,
     RAMEN,
 } DishType;

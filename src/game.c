@@ -7,7 +7,7 @@
 
 const DishInfo DISHES[] = {
     {.prep_time = 5, .cook_time = 3, .name = "Banana Split"},
-    {.prep_time = 2, .cook_time = 1, .name = "Cofee"},
+    {.prep_time = 2, .cook_time = 1, .name = "Coffee"},
     {.prep_time = 4, .cook_time = 6, .name = "Fried Chicken"},
     {.prep_time = 3, .cook_time = 2, .name = "Ramen"}
 };
@@ -122,7 +122,7 @@ void show_intro(void) {
     mvwprintw(main_win, y++, 6, "This restaraunt is the most famous of all galaxys. All because of the great founder Lana!");
     mvwprintw(main_win, y++, 6, "She made the most incredible menu ever:");
     mvwprintw(main_win, y++, 8, "* Banana Split (b)");
-    mvwprintw(main_win, y++, 8, "* Cofee (c)");
+    mvwprintw(main_win, y++, 8, "* Coffee (c)");
     mvwprintw(main_win, y++, 8, "* Fried Chicken (f)");
     mvwprintw(main_win, y++, 8, "* Ramen (r)");
     y++;
