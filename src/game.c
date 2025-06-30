@@ -135,6 +135,7 @@ void show_intro(void) {
     mvwprintw(main_win, y++, 6, "Good Luck!");
     y++;
     mvwprintw(main_win, y++, 4, "Press any key to start...");
+    mvwprintw(main_win, y++, 4, "Press ctrl + z to exit");
     wrefresh(main_win);
     nodelay(main_win, FALSE);
     wgetch(main_win);
