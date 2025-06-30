@@ -10,6 +10,7 @@ int main() {
     srand(time(NULL));
     
     init_game();
+    show_intro();
     
     pthread_t timer_thread, order_gen_thread;
     pthread_create(&timer_thread, NULL, game_timer_thread, NULL);

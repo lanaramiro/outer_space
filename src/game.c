@@ -110,3 +110,33 @@ void* game_timer_thread(void* arg) {
     game_state.is_running = false;
     return NULL;
 }
+
+void show_intro(void) {
+    werase(main_win);
+    box(main_win, 0, 0);
+    int y = 2;
+    mvwprintw(main_win, y++, 40, "+*-_+* WELCOME TO OUTER SPACE! *+_-*+");
+    y++;
+    mvwprintw(main_win, y++, 4, "Context:");
+    mvwprintw(main_win, y++, 6, "You are a chef on board of a spacial restaurant.");
+    mvwprintw(main_win, y++, 6, "This restaraunt is the most famous of all galaxys. All because of the great founder Lana!");
+    mvwprintw(main_win, y++, 6, "She made the most incredible menu ever:");
+    mvwprintw(main_win, y++, 8, "* Banana Split (b)");
+    mvwprintw(main_win, y++, 8, "* Cofee (c)");
+    mvwprintw(main_win, y++, 8, "* Fried Chicken (f)");
+    mvwprintw(main_win, y++, 8, "* Ramen (r)");
+    y++;
+    mvwprintw(main_win, y++, 4, "Instructions:");
+    mvwprintw(main_win, y++, 6, "Your work is to ask the crew to make the orders. Simple as that.");
+    mvwprintw(main_win, y++, 6, "The only thing is, a crew member can't make more than one order at the same time.");
+    mvwprintw(main_win, y++, 6, "Just cause we're in a spaceship, it doesn't mean the crew members are robots! Not yet at least...");
+    mvwprintw(main_win, y++, 6, "To make a order, type the crew member number and the letter of the order he must do.");
+    mvwprintw(main_win, y++, 6, "(ex: 1b for member 1 make a banana split)");
+    mvwprintw(main_win, y++, 6, "Good Luck!");
+    y++;
+    mvwprintw(main_win, y++, 4, "Press any key to start...");
+    wrefresh(main_win);
+    nodelay(main_win, FALSE);
+    wgetch(main_win);
+    nodelay(main_win, TRUE);
+}

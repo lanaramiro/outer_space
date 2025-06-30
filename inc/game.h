@@ -42,5 +42,6 @@ void init_game(void);
 void cleanup_game(void);
 void update_display(void);
 void* game_timer_thread(void* arg);
+void show_intro(void);
 
 #endif
